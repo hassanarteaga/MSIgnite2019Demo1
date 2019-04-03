@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "logevents",
+      "connection": "ignitetour2019storage_STORAGE"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "databaseName": "IgniteTourDB",
+      "collectionName": "log-demo",
+      "createIfNotExists": false,
+      "connectionStringSetting": "ignitetour2019_DOCUMENTDB",
+      "partitionKey": "particion",
+      "direction": "out"
+    },
+    {
+      "type": "sendGrid",
+      "name": "message",
+      "apiKey": "SendGridIgnite",
+      "direction": "out"
+    }
+  ]
+}

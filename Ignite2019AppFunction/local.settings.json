@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "eaabe0a3-7ec6-4319-b8f6-c50bdac9e7b0",
+    "ignitetour2019storage_STORAGE": "<Your Connection String>",
+    "WEBSITE_NODE_DEFAULT_VERSION": "10.14.1",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "<Your Connection String>",
+    "WEBSITE_CONTENTSHARE": "ignite2019appfunction9a2e",
+    "ignitetour2019_DOCUMENTDB": "<CosmosDB ConnectionString>",
+    "SendGridIgnite": "<SendGrid Key>",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "Ignite2019AppFunction",
+    "AzureWebJobsStorage": "<Web Job Storage ConnectionString >"
+  }
+}
